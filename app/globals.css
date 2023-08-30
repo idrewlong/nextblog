@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Oxanium", sans-serif;
+}
+
+h1 {
+  font-weight: 800; /* Bold */
+}
+
+h2 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400; /* Regular */
+}
+
+a {
+  font-weight: 300; /*light*/
+}
