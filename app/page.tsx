@@ -13,6 +13,8 @@ async function getData() {
 export default async function IndexPage() {
   const data = (await getData()) as Post[];
 
+  console.log(data);
+
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
       <div className="space-y-2 pt-6 pb-8 md:space-y-5">
